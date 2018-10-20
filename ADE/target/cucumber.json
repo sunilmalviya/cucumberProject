@@ -1,0 +1,242 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login the App with valid credential",
+        "description": "",
+        "id": "login-the-application;login-the-app-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16194663901,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the app in chrome browser",
+            "match": {
+              "location": "Steps.open_the_app_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12979755712,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter valid \"malviyasunil095@gmail.com\" and \"15akansha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "malviyasunil095@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "15akansha",
+                  "offset": 45
+                }
+              ],
+              "location": "Steps.enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89013860,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Application should login successfully",
+            "match": {
+              "location": "Steps.application_should_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5760932657,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Shutdown the application",
+            "match": {
+              "location": "Steps.shutdown_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Login App with multiple credemntials",
+        "description": "",
+        "id": "login-the-application;login-app-with-multiple-credemntials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8210995035,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open the app in chrome browser",
+            "match": {
+              "location": "Steps.open_the_app_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9808088364,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter valid \"malviyasunil095@gmail.com\" and \"15akansha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "malviyasunil095@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "15akansha",
+                  "offset": 45
+                }
+              ],
+              "location": "Steps.enter_valid_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158692301,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Application should login successfully",
+            "match": {
+              "location": "Steps.application_should_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19067532278,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Shutdown the application",
+            "match": {
+              "location": "Steps.shutdown_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Login App with multiple credemntials",
+        "description": "",
+        "id": "login-the-application;login-app-with-multiple-credemntials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7948792584,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open the app in chrome browser",
+            "match": {
+              "location": "Steps.open_the_app_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10280554308,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter valid \"malviyasunil095@gmail.com\" and \"15akansha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "malviyasunil095@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "15akansha",
+                  "offset": 45
+                }
+              ],
+              "location": "Steps.enter_valid_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127513074,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Application should login successfully",
+            "match": {
+              "location": "Steps.application_should_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5740444901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Shutdown the application",
+            "match": {
+              "location": "Steps.shutdown_the_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login the Application",
+    "description": "",
+    "id": "login-the-application",
+    "keyword": "Feature",
+    "uri": "LoginFlipKArt.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]

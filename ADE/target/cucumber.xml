@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="96.366979">
+<testcase classname="Login the Application" name="Login the App with valid credential" time="35.024366">
+<system-out><![CDATA[Given Open the app in chrome browser........................................passed
+When Enter valid "malviyasunil095@gmail.com" and "15akansha"................passed
+Then Application should login successfully..................................passed
+And Shutdown the application................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login the Application" name="Login App with multiple credemntials" time="37.245308">
+<system-out><![CDATA[Given Open the app in chrome browser........................................passed
+When Enter valid "malviyasunil095@gmail.com" and "15akansha"................passed
+Then Application should login successfully..................................passed
+And Shutdown the application................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login the Application" name="Login App with multiple credemntials 2" time="24.097305">
+<system-out><![CDATA[Given Open the app in chrome browser........................................passed
+When Enter valid "malviyasunil095@gmail.com" and "15akansha"................passed
+Then Application should login successfully..................................passed
+And Shutdown the application................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
